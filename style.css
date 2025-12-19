@@ -197,7 +197,7 @@ section {
 .about img {
   width: 250px;
   height: 250px;
-  border-radius: 50%;
+  border-radius: 20px;
   border: 2px solid #c6c7ca;
 }
 
@@ -411,6 +411,10 @@ footer {
   font-weight: bold;
   position: absolute;
   left: -20px;
+}
+
+.project-description p {
+  text-align: justify;
 }
 
 .gallery {
